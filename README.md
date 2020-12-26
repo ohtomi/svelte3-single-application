@@ -2,6 +2,11 @@
 
 このリポジトリーは、技術書典10「[いまからはじめる Svelte3](https://techbookfest.org/product/4925576424980480?productVariantID=5094401858600960)」付録のサンプルコードです。
 
+* サイト全体にCSSを適用する
+* Web APIを使う
+* コンポーネントにアクションを取り付ける
+* Lintツールで静的解析する
+
 ## サンプルコードの試しかた
 
 リポジトリーをクローンしたら、npmパッケージをインストールします。
@@ -11,7 +16,7 @@ cd svelte-app
 npm install
 ```
 
-そして、[Rollup](https://rollupjs.org)のモジュール・バンドル処理を実行し...
+そして、Rollupのモジュール・バンドル処理を実行し...
 
 ```bash
 npm run dev
@@ -21,12 +26,16 @@ npm run dev
 
 ## 開発環境
 
-* [Svelte](https://svelte.dev)
-* [svelte-check](https://www.npmjs.com/package/svelte-check)
-* [ESLint](https://eslint.org)
-* [Prettier](https://prettier.io)
-* [Jest](https://jestjs.io)
-* [Testing Library](https://testing-library.com)
+* [Svelte](https://svelte.dev) v3.0
+* [svelte-check](https://www.npmjs.com/package/svelte-check) v1.0
+* [TypeScript]() v3.9
+* [ESLint](https://eslint.org) v7.16
+* [Prettier](https://prettier.io) v2.2
+* [Jest](https://jestjs.io) v-.-
+* [Testing Library](https://testing-library.com) v-.-
+* [Rollup](https://rollupjs.org) v2.3
+* [Twitter Bootstrap](https://getbootstrap.jp) v4.3
+* [FontAwesome](https://fontawesome.com) v5.15
 
 ## 開発の進めかた
 
@@ -43,7 +52,7 @@ npm run lint
 npm run fix
 ```
 
-エラーを解消できたら、ユニットテスト（[Jest]()・[Testing Library]()）を実行します。
+エラーを解消できたら、ユニットテスト（Jest・Testing Library）を実行します。
 
 ```bash
 npm run test
