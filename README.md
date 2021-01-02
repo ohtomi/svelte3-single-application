@@ -14,7 +14,7 @@
 リポジトリーをクローンしたら、npmパッケージをインストールします。
 
 ```bash
-cd svelte-app
+cd svelte3-single-page-application
 npm install
 ```
 
